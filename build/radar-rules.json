@@ -17088,14 +17088,6 @@
           "/detail/:id"
         ],
         "target": "/comic-walker/manga/:id"
-      },
-      {
-        "title": "漫画详情",
-        "docs": "https://docs.rsshub.app/routes/anime",
-        "source": [
-          "/detail/:id/episodes/:episodeId"
-        ],
-        "target": "/comic-walker/manga/:id"
       }
     ]
   },
@@ -26346,27 +26338,6 @@
           "/article"
         ],
         "target": "/ltaaa/article"
-      }
-    ]
-  },
-  "ltn.com.tw": {
-    "_name": "自由時報",
-    "def": [
-      {
-        "title": "自由軍武頻道",
-        "docs": "https://docs.rsshub.app/routes/traditional-media",
-        "source": [
-          "/:channel"
-        ],
-        "target": "/ltn/def/:channel"
-      },
-      {
-        "title": "自由軍武頻道",
-        "docs": "https://docs.rsshub.app/routes/traditional-media",
-        "source": [
-          "/list/:id"
-        ],
-        "target": "/ltn/def/list/:id"
       }
     ]
   },
