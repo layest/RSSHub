@@ -9079,21 +9079,26 @@
   "/gov/zhejiang/gwy/:category?/:column?": [
     "nczitzk"
   ],
+  "/gov/zhengce/zhengce/zuixin": [
+    "SettingDust",
+    "nczitzk"
+  ],
+  "/gov/zhengce/zhengce/:category{.+}?": [
+    "SettingDust",
+    "nczitzk"
+  ],
+  "/gov/zhengce/zuixin": [
+    "SettingDust",
+    "nczitzk"
+  ],
   "/gov/zhengce/govall/:advance?": [
     "ciaranchen"
-  ],
-  "/gov/zhengce/:category{.+}?": [
-    "nczitzk"
   ],
   "/gov/zhengce/wenjian/:pcodeJiguan?": [
     "ciaranchen"
   ],
   "/gov/zhengce/zhengceku/:department": [
     "zxx-457"
-  ],
-  "/gov/zhengce/zuixin": [
-    "SettingDust",
-    "nczitzk"
   ],
   "/gov/zj/zfcg-helper": [
     "TonyRL"

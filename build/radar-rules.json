@@ -48012,28 +48012,22 @@
     "_name": "国务院政策文件库",
     ".": [
       {
-        "title": "信息稿件",
+        "title": "最新政策",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
+          "/zhengce/zuixin",
           "/"
         ],
-        "target": "/gov/zhengce/govall"
+        "target": "/gov/zhengce/zhengce/zuixin"
       },
       {
-        "title": "政策",
+        "title": "最新政策",
         "docs": "https://docs.rsshub.app/routes/government",
         "source": [
-          "/zhengce/*category"
-        ],
-        "target": "/gov/zhengce/:category"
-      },
-      {
-        "title": "最新文件",
-        "docs": "https://docs.rsshub.app/routes/government",
-        "source": [
+          "/zhengce/zuixin",
           "/"
         ],
-        "target": "/gov/zhengce/wenjian"
+        "target": "/gov/zhengce/zhengce/:category{.+}?"
       },
       {
         "title": "最新政策",
@@ -48043,6 +48037,22 @@
           "/"
         ],
         "target": "/gov/zhengce/zuixin"
+      },
+      {
+        "title": "信息稿件",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/zhengce/govall"
+      },
+      {
+        "title": "最新文件",
+        "docs": "https://docs.rsshub.app/routes/government",
+        "source": [
+          "/"
+        ],
+        "target": "/gov/zhengce/wenjian"
       }
     ]
   },

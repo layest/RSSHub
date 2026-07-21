@@ -1303,9 +1303,10 @@ export type RoutePath =
   | `/gov/xinyi/:path{.+}`
   | `/gov/xuzhou/hrss/:category?`
   | `/gov/zhejiang/gwy/:category?/:column?`
-  | `/gov/zhengce/:category{.+}?`
   | `/gov/zhengce/govall/:advance?`
   | `/gov/zhengce/wenjian/:pcodeJiguan?`
+  | `/gov/zhengce/zhengce/:category{.+}?`
+  | `/gov/zhengce/zhengce/zuixin`
   | `/gov/zhengce/zhengceku/:department`
   | `/gov/zhengce/zuixin`
   | `/gov/zj/ningbogzw-notice/:colId?`
