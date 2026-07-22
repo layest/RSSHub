@@ -714,12 +714,12 @@ export type RoutePath =
   | `/cztv/zjxwlb`
   | `/cztv/zjxwlb/daily`
   | `/dahecube/:type?`
-  | `/daily/discussed/:period?/:innerSharedContent?/:dateSort?`
-  | `/daily/popular/:innerSharedContent?/:dateSort?`
-  | `/daily/source/:sourceId/:innerSharedContent?`
-  | `/daily/squads/:squads/:innerSharedContent?`
-  | `/daily/upvoted/:period?/:innerSharedContent?/:dateSort?`
-  | `/daily/user/:userId/:innerSharedContent?`
+  | `/daily/discussed/:period?/:dateSort?`
+  | `/daily/popular/:dateSort?`
+  | `/daily/source/:sourceId`
+  | `/daily/squads/:squads`
+  | `/daily/upvoted/:period?/:dateSort?`
+  | `/daily/user/:userId`
   | `/dailypush/:sort?`
   | `/dailypush/tag/:tag/:sort?`
   | `/damai/activity/:city/:category/:subcategory/:keyword?`
@@ -1103,6 +1103,8 @@ export type RoutePath =
   | `/gcores/users/:id/radios`
   | `/gcores/users/:id/talks`
   | `/gcores/videos`
+  | `/gdmuseum/exhibition/:type?`
+  | `/gdmuseum/information`
   | `/gdsrx/:id?`
   | `/gdufs/news`
   | `/gdufs/xwxy/:category?`
@@ -1303,10 +1305,9 @@ export type RoutePath =
   | `/gov/xinyi/:path{.+}`
   | `/gov/xuzhou/hrss/:category?`
   | `/gov/zhejiang/gwy/:category?/:column?`
+  | `/gov/zhengce/:category{.+}?`
   | `/gov/zhengce/govall/:advance?`
   | `/gov/zhengce/wenjian/:pcodeJiguan?`
-  | `/gov/zhengce/zhengce/:category{.+}?`
-  | `/gov/zhengce/zhengce/zuixin`
   | `/gov/zhengce/zhengceku/:department`
   | `/gov/zhengce/zuixin`
   | `/gov/zj/ningbogzw-notice/:colId?`
